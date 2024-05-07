@@ -111,10 +111,28 @@
         padding: 0px 10px;
     }
 
+    .form_khaitu {
+        height: 900px;
+        position: relative;
+    }
+
+    #form_mau_khaitu {
+        height: 800px;
+    }
+
+    .form_tamvang {
+        height: 750px;
+        position: relative;
+    }
+
+    #form_mau_tamvang {
+        height: 650px;
+    }
+
     /*form tạm trú responsive*/
     /*css-form*/
     .form_tamtru {
-        height: 600px;
+        height: 900px;
     }
 
     .category_form>h2 {
@@ -130,17 +148,38 @@
 
     }
 
+    #chuho {
+        margin-top: -50px;
+        color: rgb(236, 33, 33);
+        font-size: 2rem;
+    }
+
+    .form_info_name_chuho,
+    .form_info_cmnd_chuho {
+        margin-top: -100px;
+    }
+
     #form_mau {
-        height: 480px;
+        height: 800px;
         background-color: blanchedalmond;
         margin-top: 5px;
         border-radius: 5px;
         z-index: 0;
     }
-
+    .form_tamtru_employ{
+        height: 1100px;
+    }
+    #form_mau_employ{
+        height: 1000px;
+    }
     /* Style cho input yêu cầu đã được điền đúng */
     input:required:valid {
         border-color: green;
+    }
+
+    .list_form_info_image {
+        font-weight: 500;
+        font-size: 1rem;
     }
 
     /* Style cho input yêu cầu đã được điền sai */
@@ -220,9 +259,9 @@
         width: 80%;
     }
 
-    #info_day,
-    #info_month,
-    #info_year {
+    .info_day,
+    .info_month,
+    .info_year {
         font-size: 1.2rem;
         width: 50px;
         height: 20px;
@@ -667,6 +706,7 @@
         display: block;
         width: 100%;
     }
+
     /*css-button gui*/
 
     #send_form {
@@ -757,5 +797,12 @@
         border-bottom: 3px dashed var(--elementbutton);
     }
 
+    /* css-nhân viên phê duyệt ds biểu mẫu */
+    #list_bieumau--title {
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 10px 0px;
+    }
 
 }

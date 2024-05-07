@@ -42,17 +42,17 @@
                             <h3 class="name_page">TRANG QUẢN LÝ NHÂN KHẨU ĐIỆN TỬ</h3>
                             <div class="search">
                                 <i class="fa-solid fa-magnifying-glass"></i>
-                                <input id="searching" type="search" placeholder="    Search...">
+                                <input id="searching" type="search" placeholder="Tìm kiếm...">
                                 <h4>ĐIỆN THOẠI: 0236.3760.174</h4>
                             </div>
 
                         </div>
-                        
+
                         <div class="header_login close">
                             <a href="#" id="account2">ĐĂNG XUẤT</a>
                             <a href="#" id="account"></a>
                         </div>
-                
+
                     </div>
                 </div>
 
@@ -80,9 +80,9 @@
                                 </div>
                                 <ul class="user_afterlogin_listinfo">
                                     <li><a href="#">thông tin cá nhân</a></li>
-                                    <li><a href="#">đăng ký biểu mẫu</a></li>
+                                    <li><a href="/html/tamtru.html">đăng ký biểu mẫu</a></li>
                                     <li><a href="#">thông báo</a></li>
-                                    <li><a href="/html/index.html">đăng xuất</a></li>
+                                    <li><a href="/index.html">đăng xuất</a></li>
                                 </ul>
                             </div>
                             <div class="user_announce">
@@ -127,7 +127,7 @@
                                             <div class="anounce_item_content">
                                                 <p>Biểu mẫu của bạn đã được ban quản trị phê duyệt ,
                                                     để biết thêm chi tiết xin vui lòng liên ...</p>
-                                                    <i class="fa-solid fa-circle announce_chua_doc"></i>
+                                                <i class="fa-solid fa-circle announce_chua_doc"></i>
                                             </div>
                                         </a>
                                     </li>
@@ -143,7 +143,7 @@
                                             <div class="anounce_item_content">
                                                 <p>Biểu mẫu của bạn đã được ban quản trị phê duyệt ,
                                                     để biết thêm chi tiết xin vui lòng liên ...</p>
-                                                    <i class="fa-solid fa-circle announce_chua_doc"></i>
+                                                <i class="fa-solid fa-circle announce_chua_doc"></i>
                                             </div>
                                         </a>
                                     </li>
@@ -159,7 +159,7 @@
                                             <div class="anounce_item_content">
                                                 <p>Biểu mẫu của bạn đã được ban quản trị phê duyệt ,
                                                     để biết thêm chi tiết xin vui lòng liên ...</p>
-                                                    <i class="fa-solid fa-circle announce_chua_doc"></i>
+                                                <i class="fa-solid fa-circle announce_chua_doc"></i>
                                             </div>
                                         </a>
                                     </li>
@@ -175,7 +175,7 @@
                                             <div class="anounce_item_content">
                                                 <p>Biểu mẫu của bạn đã được ban quản trị phê duyệt ,
                                                     để biết thêm chi tiết xin vui lòng liên ...</p>
-                                                    <i class="fa-solid fa-circle announce_chua_doc"></i>
+                                                <i class="fa-solid fa-circle announce_chua_doc"></i>
                                             </div>
                                         </a>
                                     </li>
@@ -191,7 +191,7 @@
                                             <div class="anounce_item_content">
                                                 <p>Biểu mẫu của bạn đã được ban quản trị phê duyệt ,
                                                     để biết thêm chi tiết xin vui lòng liên ...</p>
-                                                    <i class="fa-solid fa-circle announce_chua_doc"></i>
+                                                <i class="fa-solid fa-circle announce_chua_doc"></i>
                                             </div>
                                         </a>
                                     </li>
@@ -207,7 +207,7 @@
                                             <div class="anounce_item_content">
                                                 <p>Biểu mẫu của bạn đã được ban quản trị phê duyệt ,
                                                     để biết thêm chi tiết xin vui lòng liên ...</p>
-                                                    <i class="fa-solid fa-circle announce_chua_doc"></i>
+                                                <i class="fa-solid fa-circle announce_chua_doc"></i>
                                             </div>
                                         </a>
                                     </li>
@@ -687,8 +687,88 @@
                     <i class="fa-regular fa-eye-slash"></i>
                     <i class="fa-regular fa-eye close"></i>
                 </div>
-                <a href="#" id="fogot_pass">Quên mật khẩu ?</a>
-                <input type="submit" id="btn_login" value="Đăng nhập"></input>
+                <div class="sign">
+                    <a href="#" class="register_account">Đăng ký?</a>
+                    <a href="#" class="fogot_pass">Quên mật khẩu ?</a>
+                </div>
+                <input type="submit" class="btn_login" value="Đăng nhập"></input>
+                <!--thong bao trang thai dang nhap-->
+                <div class="applogin_announce">
+                    <p id="applogin_announce--content">Không thành công !!!</p>
+                </div>
+            </form>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+    </div>
+    <!--đăg ký-->
+    <div class="register_pass close">
+        <div class="register_box">
+            <h1 class="title_login">đăng ký</h1>
+            <form action="" class="box_input">
+                <div id="input_id">
+                    <input type="text" placeholder="Số CMND/CCCD">
+                    <i class="fa-solid fa-user" id="loginuser"></i>
+                </div>
+
+                <div class="send_email">
+                    <div id="input_email">
+                        <input type="email" placeholder="Email">
+                        <i class="fa-solid fa-envelope" id="loginuser"></i>
+                    </div>
+                    <button id="register_button_otp">Gửi OTP</button>
+                </div>
+
+                <div id="input_password">
+                    <input type="password" placeholder="Mật khẩu">
+                    <i class="fa-solid fa-key" id="loginkey"></i>
+                    <i class="fa-regular fa-eye-slash"></i>
+                    <i class="fa-regular fa-eye close"></i>
+                </div>
+                <div id="input_id">
+                    <input type="text" placeholder="Mã OTP">
+                    <i class="fa-solid fa-user" id="loginuser"></i>
+                </div>
+                <input type="submit" class="btn_login" value="Đăng ký"></input>
+                <!--thong bao trang thai dang nhap-->
+                <div class="applogin_announce">
+                    <p id="applogin_announce--content">Không thành công !!!</p>
+                </div>
+            </form>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+    </div>
+    <!--quên mật khẩu-->
+    <div class="forgot_pass close">
+        <div class="register_box">
+            <h1 class="title_login">quên mật khẩu</h1>
+            <form action="" class="box_input">
+                <div id="input_id">
+                    <input type="text" placeholder="Số CMND/CCCD">
+                    <i class="fa-solid fa-user" id="loginuser"></i>
+                </div>
+
+                <div class="send_email">
+                    <div id="input_email_2">
+                        <!-- <input type="email" placeholder="Email">
+                        <i class="fa-solid fa-envelope" id="loginuser"></i> -->
+                    </div>
+                    <button id="forgot_button_otp">Gửi OTP</button>
+                </div>
+                <div id="input_id">
+                    <input type="text" placeholder="Mã OTP">
+                    <i class="fa-solid fa-user" id="loginuser"></i>
+                </div>
+                <div id="input_password">
+                    <input type="password" placeholder="Nhập mật khẩu mới">
+                    <i class="fa-solid fa-key" id="loginkey"></i>
+                    <i class="fa-regular fa-eye-slash"></i>
+                    <i class="fa-regular fa-eye close"></i>
+                </div>
+                <input type="submit" class="btn_login" value="Xác nhận"></input>
+                <!--thong bao trang thai dang nhap-->
+                <div class="applogin_announce">
+                    <p id="applogin_announce--content">Không thành công !!!</p>
+                </div>
             </form>
             <i class="fa-solid fa-xmark"></i>
         </div>

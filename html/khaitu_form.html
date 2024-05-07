@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <script src="/js/index.js"></script>
+    <script src="/js/index2.js"></script>
     <div class="app">
         <!-- header-->
         <div class="grid wide">
@@ -44,12 +44,12 @@
                             </div>
 
                         </div>
-                        
-                        <div class="header_login close">
+                        <!--
+                        <div class="header_login">
                             <a href="#" id="account2">ĐĂNG XUẤT</a>
                             <a href="#" id="account"></a>
                         </div>
-                        
+                        -->
                     </div>
                 </div>
 
@@ -68,7 +68,6 @@
         <div class="grid wide">
             <div class="container">
                 <div class="row">
-                    <!--hello user-->
                     <div class="col l-10 l-o-1 m-12">
                         <div class="user_afterlogin_content">
                             <div class="user_afterlogin">
@@ -125,7 +124,7 @@
                                             <div class="anounce_item_content">
                                                 <p>Biểu mẫu của bạn đã được ban quản trị phê duyệt ,
                                                     để biết thêm chi tiết xin vui lòng liên ...</p>
-                                                    <i class="fa-solid fa-circle announce_chua_doc"></i>
+                                                <i class="fa-solid fa-circle announce_chua_doc"></i>
                                             </div>
                                         </a>
                                     </li>
@@ -141,7 +140,7 @@
                                             <div class="anounce_item_content">
                                                 <p>Biểu mẫu của bạn đã được ban quản trị phê duyệt ,
                                                     để biết thêm chi tiết xin vui lòng liên ...</p>
-                                                    <i class="fa-solid fa-circle announce_chua_doc"></i>
+                                                <i class="fa-solid fa-circle announce_chua_doc"></i>
                                             </div>
                                         </a>
                                     </li>
@@ -157,7 +156,7 @@
                                             <div class="anounce_item_content">
                                                 <p>Biểu mẫu của bạn đã được ban quản trị phê duyệt ,
                                                     để biết thêm chi tiết xin vui lòng liên ...</p>
-                                                    <i class="fa-solid fa-circle announce_chua_doc"></i>
+                                                <i class="fa-solid fa-circle announce_chua_doc"></i>
                                             </div>
                                         </a>
                                     </li>
@@ -173,7 +172,7 @@
                                             <div class="anounce_item_content">
                                                 <p>Biểu mẫu của bạn đã được ban quản trị phê duyệt ,
                                                     để biết thêm chi tiết xin vui lòng liên ...</p>
-                                                    <i class="fa-solid fa-circle announce_chua_doc"></i>
+                                                <i class="fa-solid fa-circle announce_chua_doc"></i>
                                             </div>
                                         </a>
                                     </li>
@@ -189,7 +188,7 @@
                                             <div class="anounce_item_content">
                                                 <p>Biểu mẫu của bạn đã được ban quản trị phê duyệt ,
                                                     để biết thêm chi tiết xin vui lòng liên ...</p>
-                                                    <i class="fa-solid fa-circle announce_chua_doc"></i>
+                                                <i class="fa-solid fa-circle announce_chua_doc"></i>
                                             </div>
                                         </a>
                                     </li>
@@ -205,7 +204,7 @@
                                             <div class="anounce_item_content">
                                                 <p>Biểu mẫu của bạn đã được ban quản trị phê duyệt ,
                                                     để biết thêm chi tiết xin vui lòng liên ...</p>
-                                                    <i class="fa-solid fa-circle announce_chua_doc"></i>
+                                                <i class="fa-solid fa-circle announce_chua_doc"></i>
                                             </div>
                                         </a>
                                     </li>
@@ -215,132 +214,201 @@
                         </div>
 
                     </div>
-                    <!--end hello user-->
-                    <!--start load post-->
-                    <div class="col l-9 m-8">
-                        <div class="content_loadpost">
-                            <div class="row">
-                                <div class="col l-10 l-o-1 m-12">
-                                    <div class="content_title_loadpost">
-                                        <h1>TẬP HUẤN KỸ NĂNG TRUYỀN THÔNG VỀ KIỂM SOÁT MẤT CÂN BẰNG GIỚI TÍNH KHI SINH
-                                        </h1>
+                    <div class="col l-3 l-o-1 m-4">
+                        <div class="category_form">
+                            <h2>đăng ký biểu mẫu</h2>
+                            <ul class="list_category_form">
+                                <li id="tamtru"><a href="/html/tamtru.html">đăng ký tạm trú</a></li>
+                                <li id="tamvang"><a href="/html/tamvang_form.html">đăng ký tạm vắng</a></li>
+                                <li id="khaisinh"><a href="/html/khaisinh_form.html">đăng ký khai sinh</a></li>
+                                <li id="khaitu"><a href="/html/khaitu_form.html">đăng ký khai tử</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-7 m-8">
+
+                        <div class="form_khaitu">
+                            <h2>đăng ký khai tử</h2>
+                            <form action="#" id="form_mau_khaitu">
+                                <!-- update khai tu -->
+                                <div class="list_form_info">
+                                    <div class="form_info_quequan">
+                                        <label for="quequan">Họ tên người khai:</label>
+                                        <input type="text" name="quequan" required>
                                     </div>
-                                    <div class="row content_post">
-                                        <div class="col l-12 m-12">
-                                            <div>
-                                                <p>
-                                                    Nhằm nâng cao nhận thức, ý thức, trách nhiệm của mỗi cá nhân, gia
-                                                    đình và
-                                                    cộng đồng về luật
-                                                    bình đẳng giới, cung cấp thông tin quy định về việc kiểm soát mất
-                                                    cần bằng
-                                                    giới tính khi sinh
-                                                    trong xã hội. 
-                                                    <span id="content_post_image"><img src="https://file.medinet.gov.vn/UploadImages/tytphuonglongbinh/2019_4/IMG_20190402_082806.jpg?w=900" alt="">
-                                
-                                                    </span>
-                                                    Thông qua những người có uy tín trong cộng đồng, Tổ
-                                                    trưởng tổ
-                                                    dân phố tác động
-                                                    tích cực đến người dân để chuyển đổi hành vi nhằm can thiệp và giảm
-                                                    thiểu
-                                                    mất cân bằng giới
-                                                    tính khi sinh, sớm đưa tỷ số giới tính khi sinh trở về mức cân bằng
-                                                    tự
-                                                    nhiên.Thông qua những người có uy tín trong cộng đồng, Tổ
-                                                    trưởng tổ
-                                                    dân phố tác động
-                                                    tích cực đến người dân để chuyển đổi hành vi nhằm can thiệp và giảm
-                                                    thiểu
-                                                    mất cân bằng giới
-                                                    tính khi sinh, sớm đưa tỷ số giới tính khi sinh trở về mức cân bằng
-                                                    tự
-                                                    nhiên.Thông qua những người có uy tín trong cộng đồng, Tổ
-                                                    trưởng tổ
-                                                    dân phố tác động
-                                                    tích cực đến người dân để chuyển đổi hành vi nhằm can thiệp và giảm
-                                                    thiểu
-                                                    mất cân bằng giới
-                                                    tính khi sinh, sớm đưa tỷ số giới tính khi sinh trở về mức cân bằng
-                                                    tự
-                                                    nhiên.
-                                                    Thông qua những người có uy tín trong cộng đồng, Tổ
-                                                    trưởng tổ
-                                                    dân phố tác động
-                                                    tích cực đến người dân để chuyển đổi hành vi nhằm can thiệp và giảm
-                                                    thiểu
-                                                    mất cân bằng giới
-                                                    tính khi sinh, sớm đưa tỷ số giới tính khi sinh trở về mức cân bằng
-                                                    tự
-                                                    nhiên.Thông qua những người có uy tín trong cộng đồng, Tổ
-                                                    trưởng tổ
-                                                    dân phố tác động
-                                                    tích cực đến người dân để chuyển đổi hành vi nhằm can thiệp và giảm
-                                                    thiểu
-                                                    mất cân bằng giới
-                                                    tính khi sinh, sớm đưa tỷ số giới tính khi sinh trở về mức cân bằng
-                                                    tự
-                                                    nhiên.Thông qua những người có uy tín trong cộng đồng, Tổ
-                                                    trưởng tổ
-                                                    dân phố tác động
-                                                    tích cực đến người dân để chuyển đổi hành vi nhằm can thiệp và giảm
-                                                    thiểu
-                                                    mất cân bằng giới
-                                                    tính khi sinh, sớm đưa tỷ số giới tính khi sinh trở về mức cân bằng
-                                                    tự
-                                                    nhiên.
-                                                </p>
-                                            </div>
-                                        </div>
+                                </div>
+                                <div class="list_form_info">
+                                    <div class="form_info_hotenme">
+                                        <label for="hotenme">Nơi cư trú:</label>
+                                        <input type="text" name="hotenme" required>
+                                    </div>
+                                    <div class="form_info_cmndme">
+                                        <label for="cmndme">CMND/CCCD:</label>
+                                        <input type="text" name="cmndme" required>
+                                    </div>
+                                </div>
+                                <div class="list_form_info">
+                                    <div class="form_info_quequan">
+                                        <label for="quequan">Quan hệ với người mất:</label>
+                                        <input type="text" name="quequan" required>
+                                    </div>
+                                </div>
+                                <div class="list_form_info">
+                                    <label for="" id="chuho">*Khai tử cho người dưới đây:</label>
+                                </div>
+
+                                <div class="list_form_info">
+                                    <div class="form_info_name">
+                                        <label for="name">Họ và tên:</label>
+                                        <input type="text" name="name" required>
+                                    </div>
+                                    <div class="form_info_nam">
+                                        <label for="nam">Nam</label>
+                                        <input type="radio" name="nam">
+                                    </div>
+                                    <div class="form_info_nu">
+                                        <label for="nam">Nữ</label>
+                                        <input type="radio" name="nam">
+                                    </div>
+                                </div>
+
+                                <div class="list_form_info">
+                                    <div class="form_info_date">
+                                        <label for="info_date">Ngày/Tháng/Năm sinh:</label>
+                                        <select name="info_date" class="info_day">
+
+                                        </select>
+                                        <select name="info_date" class="info_month">
+
+                                        </select>
+                                        <select name="info_date" class="info_year">
+
+                                        </select>
+                                    </div>
+                                    <div class="fom_info_dantoc">
+                                        <label for="dantoc">Dân tộc:</label>
+                                        <input type="text" name="dantoc" required>
+                                    </div>
+                                </div>
+
+                                <div class="list_form_info">
+                                    <div class="form_info_noisinh">
+                                        <label for="noisinh">Quê quán:</label>
+                                        <input type="text" name="noisinh" required>
+                                    </div>
+                                    <div class="form_info_quoctich">
+                                        <label for="quoctich">Quốc tịch:</label>
+                                        <input type="text" name="quoctich" required>
+                                    </div>
+                                </div>
+
+
+                                <div class="list_form_info">
+                                    <div class="form_info_hotenme">
+                                        <label for="hotenme">Nơi cư trú:</label>
+                                        <input type="text" name="hotenme" required>
+                                    </div>
+                                    <div class="form_info_cmndme">
+                                        <label for="cmndme">CMND/CCCD:</label>
+                                        <input type="text" name="cmndme" required>
+                                    </div>
+                                </div>
+                        
+                               
+                                <div class="list_form_info" id="info_chame">
+                                    <div class="form_info_datecha">
+                                        <label for="info_date">Đã mất vào hồi:</label>
+                                        <select name="info_date" id="info_daycha" class="info_day">
+
+                                        </select>
+                                        <select name="info_date" id="info_monthcha" class="info_month">
+
+                                        </select>
+                                        <select name="info_date" id="info_yearcha" class="info_year">
+
+                                        </select>
+                                    </div>
+                                    <div class="fom_info_dantoccha">
+                                        <label for="dantoc">Giờ:</label>
+                                        <input type="text" name="dantoc" required>
+                                    </div>
+                                    <div class="fom_info_quoctichcha">
+                                        <label for="quoctichcha">Phút:</label>
+                                        <input type="text" name="quoctichcha" required>
+                                    </div>
+                                </div>
+                                <div class="list_form_info">
+                                    <div class="form_info_cutrucha">
+                                        <label for="cutrucha">Nơi mất:</label>
+                                        <input type="text" name="cutrucha" required>
+                                    </div>
+                                </div>
+                                <div class="list_form_info">
+                                    <div class="form_info_cutrucha">
+                                        <label for="cutrucha">Nguyên nhân:</label>
+                                        <input type="text" name="cutrucha" required>
+                                    </div>
+                                </div>
+                                <div class="list_form_info">
+                                    <div class="form_info_date">
+                                        <label for="info_date">Ngày báo tử:</label>
+                                        <select name="info_date" class="info_day">
+
+                                        </select>
+                                        <select name="info_date" class="info_month">
+
+                                        </select>
+                                        <select name="info_date" class="info_year">
+
+                                        </select>
                                     </div>
 
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--end load page-->
-                    <div class="col l-3 m-4">
-                        <div class="row">
-                            <div class="col l-10">
-                                <div class="sidebar">
-                                    <div class="sidebar_title">
-                                        <h4>THÔNG BÁO</h4>
+                                <!-- end -->
+
+
+
+
+
+                                <div class="list_form_info close">
+                                    <div class="form_info_sdt">
+                                        <label for="sdt">Số điện thoại:</label>
+                                        <input type="text" name="sdt" required>
                                     </div>
-                                    <ul class="sidebar_listinfo">
-                                        <li>
-                                            <a href="#" class="sidebar_listinfo_item">
-                                                <h4>TUYÊN TRUYỀN MỘT SỐ NHIỆM VỤ, NỘI DUNG TRONG TUẦN 45</h4>
-                                                <p>Ngày đăng: 02/11/2023</p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="sidebar_listinfo_item">
-                                                <h4>TUYÊN TRUYỀN MỘT SỐ NHIỆM VỤ, NỘI DUNG TRONG TUẦN 45</h4>
-                                                <p>Ngày đăng: 02/11/2023</p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="sidebar_listinfo_item">
-                                                <h4>TUYÊN TRUYỀN MỘT SỐ NHIỆM VỤ, NỘI DUNG TRONG TUẦN 45</h4>
-                                                <p>Ngày đăng: 02/11/2023</p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="sidebar_listinfo_item">
-                                                <h4>TUYÊN TRUYỀN MỘT SỐ NHIỆM VỤ, NỘI DUNG TRONG TUẦN 45</h4>
-                                                <p>Ngày đăng: 02/11/2023</p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="sidebar_listinfo_item">
-                                                <h4>TUYÊN TRUYỀN MỘT SỐ NHIỆM VỤ, NỘI DUNG TRONG TUẦN 45</h4>
-                                                <p>Ngày đăng: 02/11/2023</p>
-                                            </a>
-                                        </li>
-                                    </ul>
+                                    <div class="form_info_email">
+                                        <label for="email">Email:</label>
+                                        <input type="email" name="email" required>
+                                    </div>
                                 </div>
-                            </div>
+                                <div class="list_form_info close">
+                                    <div class="form_info_image">
+                                        <label for="image_cmnd" id="form_for_image_cccd">Ảnh CMND/CCCD:</label>
+                                        <div class="form_upload_image">
+                                            <input type="file" name="image_cmnd" id="mattruoc">
+                                            <label for="mattruoc" class="upload_file"><i
+                                                    class="fa-solid fa-arrow-up-from-bracket"></i>Mặt trước</label>
+                                            <span class="ttimage">
+                                                <strong>Choose file:</strong>
+                                                <span id="filename_truoc">None</span>
+                                            </span>
+                                        </div>
+                                        <div class="form_upload_image">
+                                            <input type="file" name="image_cmnd" id="matsau">
+                                            <label for="matsau" class="upload_file"><i
+                                                    class="fa-solid fa-arrow-up-from-bracket"></i>Mặt sau</label>
+                                            <span class="ttimage">
+                                                <strong>Choose file:</strong>
+                                                <span id="filename_sau">None</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <input type="submit" value="GỬI" id="send_form_khaisinh">
+                            </form>
+
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -401,8 +469,8 @@
             <i class="fa-solid fa-xmark"></i>
         </div>
     </div>
-      <!--đăg ký-->
-      <div class="register_pass close">
+    <!--đăg ký-->
+    <div class="register_pass close">
         <div class="register_box">
             <h1 class="title_login">đăng ký</h1>
             <form action="" class="box_input">
@@ -439,7 +507,7 @@
         </div>
     </div>
     <!--quên mật khẩu-->
-     <div class="forgot_pass close">
+    <div class="forgot_pass close">
         <div class="register_box">
             <h1 class="title_login">quên mật khẩu</h1>
             <form action="" class="box_input">

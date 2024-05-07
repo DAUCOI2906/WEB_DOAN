@@ -47,12 +47,12 @@
                             </div>
 
                         </div>
-                        
+
                         <div class="header_login close">
                             <a href="#" id="account2">ĐĂNG XUẤT</a>
                             <a href="#" id="account"></a>
                         </div>
-                
+
                     </div>
                 </div>
 
@@ -75,12 +75,12 @@
                         <div class="user_afterlogin_content">
                             <div class="user_afterlogin">
                                 <div class="hello_user"><i class="fa-solid fa-user" id="hello_user_icon"></i>
-                                        <i class="fa-solid fa-bars" id="hello_user_bar"></i>
+                                    <i class="fa-solid fa-bars" id="hello_user_bar"></i>
                                     <h3>Admin <span id="hello_user_name">Nguyễn Mạnh Dũng</span></h3>
                                 </div>
                                 <ul class="user_afterlogin_listinfo">
                                     <li><a href="#">danh sách biểu mẫu</a></li>
-                                    <li><a href="/html/admin_qltk.html">quản lý tài khoản</a></li>
+                                    <li><a href="#">quản lý tài khoản</a></li>
                                     <li><a href="#">thống kê</a></li>
                                     <li><a href="/index.html">đăng xuất</a></li>
                                 </ul>
@@ -127,7 +127,7 @@
                                             <div class="anounce_item_content">
                                                 <p>Biểu mẫu của bạn đã được ban quản trị phê duyệt ,
                                                     để biết thêm chi tiết xin vui lòng liên ...</p>
-                                                    <i class="fa-solid fa-circle announce_chua_doc"></i>
+                                                <i class="fa-solid fa-circle announce_chua_doc"></i>
                                             </div>
                                         </a>
                                     </li>
@@ -143,7 +143,7 @@
                                             <div class="anounce_item_content">
                                                 <p>Biểu mẫu của bạn đã được ban quản trị phê duyệt ,
                                                     để biết thêm chi tiết xin vui lòng liên ...</p>
-                                                    <i class="fa-solid fa-circle announce_chua_doc"></i>
+                                                <i class="fa-solid fa-circle announce_chua_doc"></i>
                                             </div>
                                         </a>
                                     </li>
@@ -159,7 +159,7 @@
                                             <div class="anounce_item_content">
                                                 <p>Biểu mẫu của bạn đã được ban quản trị phê duyệt ,
                                                     để biết thêm chi tiết xin vui lòng liên ...</p>
-                                                    <i class="fa-solid fa-circle announce_chua_doc"></i>
+                                                <i class="fa-solid fa-circle announce_chua_doc"></i>
                                             </div>
                                         </a>
                                     </li>
@@ -175,7 +175,7 @@
                                             <div class="anounce_item_content">
                                                 <p>Biểu mẫu của bạn đã được ban quản trị phê duyệt ,
                                                     để biết thêm chi tiết xin vui lòng liên ...</p>
-                                                    <i class="fa-solid fa-circle announce_chua_doc"></i>
+                                                <i class="fa-solid fa-circle announce_chua_doc"></i>
                                             </div>
                                         </a>
                                     </li>
@@ -191,7 +191,7 @@
                                             <div class="anounce_item_content">
                                                 <p>Biểu mẫu của bạn đã được ban quản trị phê duyệt ,
                                                     để biết thêm chi tiết xin vui lòng liên ...</p>
-                                                    <i class="fa-solid fa-circle announce_chua_doc"></i>
+                                                <i class="fa-solid fa-circle announce_chua_doc"></i>
                                             </div>
                                         </a>
                                     </li>
@@ -207,7 +207,7 @@
                                             <div class="anounce_item_content">
                                                 <p>Biểu mẫu của bạn đã được ban quản trị phê duyệt ,
                                                     để biết thêm chi tiết xin vui lòng liên ...</p>
-                                                    <i class="fa-solid fa-circle announce_chua_doc"></i>
+                                                <i class="fa-solid fa-circle announce_chua_doc"></i>
                                             </div>
                                         </a>
                                     </li>
@@ -217,7 +217,332 @@
                         </div>
 
                     </div>
-                    <div class="col l-9 m-8">
+                    <div class="col l-12 m-12">
+                        <div class="manage_account_box">
+                            <div class="row">
+                                <div class="col l-12 m-12">
+                                    <div class="cruid_account">
+                                        <div class="cruid_srearch_box">
+                                            <form action="">
+                                                <input type="search" placeholder="Tìm kiếm tài khoản..."
+                                                    id="cruid_srearch_box--input">
+                                                <input type="submit" value="Tìm kiếm" id="cruid_srearch_box--button">
+                                            </form>
+                                        </div>
+                                        <div class="cruid_dstk">
+                                            <div class="cruid_dstk_head">
+                                                <p id="title_dstk">Danh sách tài khoản</p>
+                                                <div class="cruid_button">
+                                                    <button id="butto_backup">Hoàn tác</button>
+                                                    <button id="button_add">Thêm mới</button>
+                                                </div>
+                                            </div>
+                                            <div class="outer_table">
+                                                <table>
+                                                    <thead>
+                                                        <th>STT</th>
+                                                        <th>CCCD</th>
+                                                        <th>Họ và tên</th>
+                                                        <th>Email</th>
+                                                        <th>Ngày cấp</th>
+                                                        <th>Hoạt động</th>
+                                                        <th>Chức năng</th>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>123456789</td>
+                                                            <td>Nguyễn Mạnh Dũng</td>
+                                                            <td>nguyenmanhdung2906@gmail.com</td>
+                                                            <td>12/12/2022</td>
+                                                            <td>
+                                                                <div class="check_active">
+                                                                    <input type="checkbox" class="btn_check_active">
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="function_manage">
+                                                                    <button class="btn_edit"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></button>
+                                                                    <button class="btn_delete"><i
+                                                                            class="fa-solid fa-trash-can"></i></button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>123456789</td>
+                                                            <td>Nguyễn Mạnh Cường</td>
+                                                            <td>nguyenmanhdung2906@gmail.com</td>
+                                                            <td>12/12/2022</td>
+                                                            <td>
+                                                                <div class="check_active">
+                                                                    <input type="checkbox" class="btn_check_active">
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="function_manage">
+                                                                    <button class="btn_edit"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></button>
+                                                                    <button class="btn_delete"><i
+                                                                            class="fa-solid fa-trash-can"></i></button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>123456789</td>
+                                                            <td>Nguyễn Mạnh Mẽ</td>
+                                                            <td>nguyenmanhdung2906@gmail.com</td>
+                                                            <td>12/12/2022</td>
+                                                            <td>
+                                                                <div class="check_active">
+                                                                    <input type="checkbox" class="btn_check_active">
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="function_manage">
+                                                                    <button class="btn_edit"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></button>
+                                                                    <button class="btn_delete"><i
+                                                                            class="fa-solid fa-trash-can"></i></button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>123456789</td>
+                                                            <td>Nguyễn Mạnh Dũng</td>
+                                                            <td>nguyenmanhdung2906@gmail.com</td>
+                                                            <td>12/12/2022</td>
+                                                            <td>
+                                                                <div class="check_active">
+                                                                    <input type="checkbox" class="btn_check_active">
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="function_manage">
+                                                                    <button class="btn_edit"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></button>
+                                                                    <button class="btn_delete"><i
+                                                                            class="fa-solid fa-trash-can"></i></button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>123456789</td>
+                                                            <td>Nguyễn Mạnh Dũng</td>
+                                                            <td>nguyenmanhdung2906@gmail.com</td>
+                                                            <td>12/12/2022</td>
+                                                            <td>
+                                                                <div class="check_active">
+                                                                    <input type="checkbox" class="btn_check_active">
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="function_manage">
+                                                                    <button class="btn_edit"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></button>
+                                                                    <button class="btn_delete"><i
+                                                                            class="fa-solid fa-trash-can"></i></button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>123456789</td>
+                                                            <td>Nguyễn Mạnh Dũng</td>
+                                                            <td>nguyenmanhdung2906@gmail.com</td>
+                                                            <td>12/12/2022</td>
+                                                            <td>
+                                                                <div class="check_active">
+                                                                    <input type="checkbox" class="btn_check_active">
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="function_manage">
+                                                                    <button class="btn_edit"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></button>
+                                                                    <button class="btn_delete"><i
+                                                                            class="fa-solid fa-trash-can"></i></button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>123456789</td>
+                                                            <td>Nguyễn Mạnh Dũng</td>
+                                                            <td>nguyenmanhdung2906@gmail.com</td>
+                                                            <td>12/12/2022</td>
+                                                            <td>
+                                                                <div class="check_active">
+                                                                    <input type="checkbox" class="btn_check_active">
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="function_manage">
+                                                                    <button class="btn_edit"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></button>
+                                                                    <button class="btn_delete"><i
+                                                                            class="fa-solid fa-trash-can"></i></button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>123456789</td>
+                                                            <td>Nguyễn Mạnh Dũng</td>
+                                                            <td>nguyenmanhdung2906@gmail.com</td>
+                                                            <td>12/12/2022</td>
+                                                            <td>
+                                                                <div class="check_active">
+                                                                    <input type="checkbox" class="btn_check_active">
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="function_manage">
+                                                                    <button class="btn_edit"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></button>
+                                                                    <button class="btn_delete"><i
+                                                                            class="fa-solid fa-trash-can"></i></button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>123456789</td>
+                                                            <td>Nguyễn Mạnh Dũng</td>
+                                                            <td>nguyenmanhdung2906@gmail.com</td>
+                                                            <td>12/12/2022</td>
+                                                            <td>
+                                                                <div class="check_active">
+                                                                    <input type="checkbox" class="btn_check_active">
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="function_manage">
+                                                                    <button class="btn_edit"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></button>
+                                                                    <button class="btn_delete"><i
+                                                                            class="fa-solid fa-trash-can"></i></button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>123456789</td>
+                                                            <td>Nguyễn Mạnh Dũng</td>
+                                                            <td>nguyenmanhdung2906@gmail.com</td>
+                                                            <td>12/12/2022</td>
+                                                            <td>
+                                                                <div class="check_active">
+                                                                    <input type="checkbox" class="btn_check_active">
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="function_manage">
+                                                                    <button class="btn_edit"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></button>
+                                                                    <button class="btn_delete"><i
+                                                                            class="fa-solid fa-trash-can"></i></button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>123456789</td>
+                                                            <td>Nguyễn Mạnh Dũng</td>
+                                                            <td>nguyenmanhdung2906@gmail.com</td>
+                                                            <td>12/12/2022</td>
+                                                            <td>
+                                                                <div class="check_active">
+                                                                    <input type="checkbox" class="btn_check_active">
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="function_manage">
+                                                                    <button class="btn_edit"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></button>
+                                                                    <button class="btn_delete"><i
+                                                                            class="fa-solid fa-trash-can"></i></button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>123456789</td>
+                                                            <td>Nguyễn Mạnh Dũng</td>
+                                                            <td>nguyenmanhdung2906@gmail.com</td>
+                                                            <td>12/12/2022</td>
+                                                            <td>
+                                                                <div class="check_active">
+                                                                    <input type="checkbox" class="btn_check_active">
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="function_manage">
+                                                                    <button class="btn_edit"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></button>
+                                                                    <button class="btn_delete"><i
+                                                                            class="fa-solid fa-trash-can"></i></button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>123456789</td>
+                                                            <td>Nguyễn Mạnh Dũng</td>
+                                                            <td>nguyenmanhdung2906@gmail.com</td>
+                                                            <td>12/12/2022</td>
+                                                            <td>
+                                                                <div class="check_active">
+                                                                    <input type="checkbox" class="btn_check_active">
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="function_manage">
+                                                                    <button class="btn_edit"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></button>
+                                                                    <button class="btn_delete"><i
+                                                                            class="fa-solid fa-trash-can"></i></button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>123456789</td>
+                                                            <td>Nguyễn Mạnh Dũng</td>
+                                                            <td>nguyenmanhdung2906@gmail.com</td>
+                                                            <td>12/12/2022</td>
+                                                            <td>
+                                                                <div class="check_active">
+                                                                    <input type="checkbox" class="btn_check_active">
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="function_manage">
+                                                                    <button class="btn_edit"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></button>
+                                                                    <button class="btn_delete"><i
+                                                                            class="fa-solid fa-trash-can"></i></button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!--close tab k can-->
+                    <div class="col l-9 m-8 close">
                         <div class="content">
                             <div class="row">
                                 <div class="col l-10 l-o-1 m-12">
@@ -385,7 +710,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-3 m-4">
+                    <div class="col l-3 m-4 close">
                         <div class="row">
                             <div class="col l-10">
                                 <div class="sidebar">
@@ -429,7 +754,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <!--close tab k can-->
+                <div class="row close">
                     <div class="col l-9 m-8">
                         <div class="content">
                             <div class="row">
@@ -700,8 +1026,8 @@
             <i class="fa-solid fa-xmark"></i>
         </div>
     </div>
-      <!--đăg ký-->
-      <div class="register_pass close">
+    <!--đăg ký-->
+    <div class="register_pass close">
         <div class="register_box">
             <h1 class="title_login">đăng ký</h1>
             <form action="" class="box_input">
@@ -738,7 +1064,7 @@
         </div>
     </div>
     <!--quên mật khẩu-->
-     <div class="forgot_pass close">
+    <div class="forgot_pass close">
         <div class="register_box">
             <h1 class="title_login">quên mật khẩu</h1>
             <form action="" class="box_input">
@@ -765,6 +1091,77 @@
                     <i class="fa-regular fa-eye close"></i>
                 </div>
                 <input type="submit" class="btn_login" value="Xác nhận"></input>
+                <!--thong bao trang thai dang nhap-->
+                <div class="applogin_announce">
+                    <p id="applogin_announce--content">Không thành công !!!</p>
+                </div>
+            </form>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+    </div>
+    <!--form edit item-->
+    <div class="edit_info close">
+        <div class="edit_info_box">
+            <h1 class="edit_title">Chỉnh sửa thông tin</h1>
+            <form action="" class="box_input_edit">
+
+                <div class="edit_input">
+                    <label for="">CCCD</label>
+                    <input type="text" placeholder="Số CMND/CCCD">
+                </div>
+                <div class="edit_input">
+                    <label for="">Họ và tên</label>
+                    <input type="text" placeholder="Họ và tên">
+                </div>
+                <div class="edit_input">
+                    <label for="">Email</label>
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="edit_input">
+                    <label for="">Ngày cấp (dd/MM/yyyy)</label>
+                    <input type="text" placeholder="Ngày cấp">
+                </div>
+                <div class="edit_input_status">
+                    <label for="">Hoạt động</label>
+                    <input type="checkbox" class="btn_check_active_edit">
+                </div>
+                <input type="submit" class="btn_edit_save" value="Lưu"></input>
+                <!--thong bao trang thai dang nhap-->
+                <div class="applogin_announce">
+                    <p id="applogin_announce--content">Không thành công !!!</p>
+                </div>
+            </form>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+    </div>
+
+    <!--form add item-->
+    <div class="add_info close">
+        <div class="edit_info_box">
+            <h1 class="edit_title">Thêm Mới Tài khoản</h1>
+            <form action="" class="box_input_edit">
+
+                <div class="add_input">
+                    <label for="">CCCD</label>
+                    <input type="text" placeholder="Số CMND/CCCD">
+                </div>
+                <div class="add_input">
+                    <label for="">Họ và tên</label> 
+                    <input type="text" placeholder="Họ và tên">
+                </div>
+                <div class="add_input">
+                    <label for="">Email</label>
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="add_input">
+                    <label for="">Ngày cấp (dd/MM/yyyy)</label>
+                    <input type="text" placeholder="Ngày cấp">
+                </div>
+                <div class="add_input_status">
+                    <label for="">Hoạt động</label>
+                    <input type="checkbox" class="btn_check_active_edit">
+                </div>
+                <input type="submit" class="btn_edit_add" value="Thêm"></input>
                 <!--thong bao trang thai dang nhap-->
                 <div class="applogin_announce">
                     <p id="applogin_announce--content">Không thành công !!!</p>
